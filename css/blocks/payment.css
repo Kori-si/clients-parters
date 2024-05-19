@@ -1,0 +1,30 @@
+.payment__title {
+  margin: 0 0 40px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+
+.payment__list {
+  display: flex;
+  margin: 0 0 100px;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.payment__item {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.payment__img{
+    margin: 0 0 20px;
+}
+
+.payment__item-title {
+  margin: 0 0 12px;
+  text-align: center;
+}

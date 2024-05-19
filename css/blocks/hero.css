@@ -1,0 +1,34 @@
+.hero {
+  background-color: #F4F6FA;
+}
+
+.hero__wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 150px;
+  margin: 0 0 100px;
+}
+
+.hero__content {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero__heading {
+  margin: 0 0 24px 0;
+}
+
+.hero__heading-highlight {
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+  color: #476BF0;
+}
+
+.hero__description {
+  margin: 0 0 48px 0;
+  font-size: 18px;
+  line-height: 24px;
+}

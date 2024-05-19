@@ -1,0 +1,37 @@
+.card-advantages {
+  display: flex;
+  align-items: center;
+  column-gap: 85px;
+  border-radius: 10px;
+}
+
+.card-advantages--reverse .card-advantages__content {
+  padding: 100px 0 100px 140px;
+}
+
+.card-advantages--heavenly {
+  background-color: #a8dcff;
+}
+
+.card-advantages--purple {
+  background-color: #8ca3ff;
+}
+
+.card-advantages__content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.card-advantages__heading {
+  margin: 0 0 20px 0;
+  padding: 0;
+  text-align: left;
+}
+
+.card-advantages__description {
+  display: block;
+  margin: 0 0 32px 0;
+  font-size: 18px;
+  line-height: 24px;
+}

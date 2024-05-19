@@ -1,0 +1,37 @@
+.btn {
+  font-family: "Noto Sans", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 14px 24px;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.btn--active {
+  background-color: #1e222e;
+}
+
+.btn--inactive {
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #1e222e;
+}
+
+.btn--language {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 22px;
+  border-radius: 12px;
+  border: 1px solid #dbdfec;
+}
+
+.btn--purple {
+  font-size: 15px;
+  border-radius: 12px;
+  background-color: #476bf0;
+  padding: 18px 32px;
+}
