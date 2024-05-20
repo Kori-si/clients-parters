@@ -9,7 +9,7 @@
 
 .place__list {
   display: flex;
-  margin: 0 0 120px;
+  margin: 0 ;
   padding: 0;
   gap: 32px;
   list-style-type: none;

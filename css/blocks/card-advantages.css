@@ -5,8 +5,10 @@
   border-radius: 10px;
 }
 
-.card-advantages--reverse .card-advantages__content {
-  padding: 100px 0 100px 140px;
+.card-advantages--vertical {
+  flex-direction: column;
+  padding: 60px 0 0 0;
+  gap: 72px;
 }
 
 .card-advantages--heavenly {
@@ -18,10 +20,24 @@
   background-color: #8ca3ff;
 }
 
+.card-advantages--reverse {
+  padding: 0 0 0 140px;
+}
+
+.card-advantages--dark-grey {
+  background-color: #7f8499;
+}
+
+.card-advantages--grey {
+  background-color: #f4f6fa;
+  gap: 152px;
+}
+
 .card-advantages__content {
   display: flex;
   flex-direction: column;
   align-items: start;
+  max-width: 480px;
 }
 
 .card-advantages__heading {
@@ -43,7 +59,6 @@
 
 .card-advantages__btn {
   padding: 14px 32px;
-
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;

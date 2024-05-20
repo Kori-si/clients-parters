@@ -11,7 +11,7 @@
   margin: 0 0 100px;
   gap: 40px;
   list-style-type: none;
-padding: 0;
+  padding: 0;
 }
 
 .payment__item {
@@ -22,8 +22,8 @@ padding: 0;
   width: 280px;
 }
 
-.payment__img{
-    margin: 0 0 20px;
+.payment__img {
+  margin: 0 0 20px;
 }
 
 .payment__item-title {

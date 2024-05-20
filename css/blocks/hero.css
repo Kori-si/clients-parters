@@ -1,5 +1,5 @@
 .hero {
-  background-color: #F4F6FA;
+  background-color: #f4f6fa;
 }
 
 .hero__wrapper {
@@ -18,13 +18,14 @@
 
 .hero__heading {
   margin: 0 0 24px 0;
+  padding: 0;
 }
 
 .hero__heading-highlight {
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-  color: #476BF0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #476bf0;
 }
 
 .hero__description {
