@@ -1,3 +1,6 @@
+.place{
+  margin: 0 0 100px;
+}
 .place__title {
   width: 520px;
   margin: 0 auto 40px;
@@ -7,6 +10,7 @@
 .place__list {
   display: flex;
   margin: 0 0 120px;
+  padding: 0;
   gap: 32px;
   list-style-type: none;
 }

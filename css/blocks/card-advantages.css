@@ -1,7 +1,7 @@
 .card-advantages {
   display: flex;
   align-items: center;
-  column-gap: 85px;
+  column-gap: 92px;
   border-radius: 10px;
 }
 
@@ -11,6 +11,7 @@
 
 .card-advantages--heavenly {
   background-color: #a8dcff;
+  column-gap: 100px;
 }
 
 .card-advantages--purple {
@@ -31,7 +32,19 @@
 
 .card-advantages__description {
   display: block;
-  margin: 0 0 32px 0;
+  margin: 0;
   font-size: 18px;
   line-height: 24px;
+}
+
+.card-advantages--heavenly .card-advantages__description {
+  margin: 0 0 32px;
+}
+
+.card-advantages__btn {
+  padding: 14px 32px;
+
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
 }

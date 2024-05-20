@@ -52,3 +52,10 @@ span {
   text-align: center;
   color: #696e82;
 }
+
+footer span {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #6a6e80;
+}
